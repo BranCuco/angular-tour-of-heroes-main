@@ -1,0 +1,17 @@
+<div class="container-xl">
+  <h1 class="h1 text-center">{{ title }}</h1>
+
+  <ul class="nav justify-content-center  ">
+    <li class="nav-item">
+      <a class="nav-link " routerLink="/dashboard">Dashboard</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " routerLink="/heroes">Heroes</a>
+    </li>
+
+  </ul>
+
+
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
+</div>
